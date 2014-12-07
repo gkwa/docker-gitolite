@@ -1,4 +1,4 @@
-FROM phusion/baseimage-docker
+FROM jeckhart/phusion-baseimage
 
 MAINTAINER Taylor Monacelli <tailor@uw.edu>
 
