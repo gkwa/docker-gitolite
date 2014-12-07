@@ -16,7 +16,7 @@ RUN dpkg-reconfigure locales
 # http://stackoverflow.com/a/2510548/15677
 RUN sed -i 's/^AcceptEnv LANG LC_\*$//g' /etc/ssh/sshd_config
 
-RUN mkdir /var/run/sshd
+RUN mkdir -p /var/run/sshd
 
 RUN adduser --system --group --shell /bin/sh git
 RUN su git -c "mkdir /home/git/bin"
