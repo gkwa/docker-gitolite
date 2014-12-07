@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM ubuntu
 
 MAINTAINER Taylor Monacelli <tailor@uw.edu>
 
