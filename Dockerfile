@@ -1,4 +1,4 @@
-FROM jeckhart/phusion-baseimage
+FROM phusion/baseimage
 
 MAINTAINER Taylor Monacelli <tailor@uw.edu>
 
