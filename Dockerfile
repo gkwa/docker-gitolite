@@ -5,10 +5,10 @@ MAINTAINER Taylor Monacelli <tailor@uw.edu>
 
 RUN apt-get update
 
-RUN apt-get -y install sudo
-RUN apt-get -y install openssh-server
-RUN apt-get -y install git
-RUN apt-get -y install curl
+RUN apt-get -qq -y install sudo
+RUN apt-get -qq -y install openssh-server
+RUN apt-get -qq -y install git
+RUN apt-get -qq -y install curl
 
 # Taylor's specific setup
 RUN curl https://raw.githubusercontent.com/TaylorMonacelli/ubuntu_taylor/master/setup.sh | sh -
