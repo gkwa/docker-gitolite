@@ -1,5 +1,5 @@
 # https://github.com/phusion/baseimage-docker/blob/master/Changelog.md
-FROM phusion/baseimage:0.9.16
+FROM phusion/baseimage:0.10.2
 
 MAINTAINER Taylor Monacelli <tailor@uw.edu>
 
